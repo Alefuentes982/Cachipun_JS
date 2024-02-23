@@ -1,0 +1,41 @@
+#img-header {
+    background-image: url('../img/cachi.jpg');
+    background-size: cover;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+
+}
+
+.navbar-brand {
+    font-family: "Lobster", cursive;
+    font-size: 40px;
+    margin-left: 8%;
+}
+
+footer a {
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+#btn1 {
+    width: 20%;
+    margin-bottom: 4%;
+}
+
+@media (max-width: 576px) {
+
+    #img-header {
+        margin-top: 20%;
+    }
+
+    #wrap {
+        margin-top: 1%;
+    }
+
+    #btn1 {
+        width: 90%;
+    }
+
+}
